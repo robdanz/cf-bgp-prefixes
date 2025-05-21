@@ -11,7 +11,7 @@ CREATE TABLE IF NOT EXISTS ASyourASNGoesHere (
   last_seen_at TEXT NOT NULL
 );
 </code>
-You can run the Worker as a cron, your can force a manual update with 
+You can run the Worker as a cron, or you can force a manual update with 
 
 https://your-worker.goes-here.workers.dev/update?asn=AS14593
 and this would get you all of the Starlink prefixes in AS14593.  

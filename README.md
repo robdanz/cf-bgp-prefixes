@@ -13,4 +13,5 @@ CREATE TABLE IF NOT EXISTS ASyourASNGoesHere (
 You can run the Worker as a cron, your can force a manual update with 
 
 https://your-worker.goes-here.workers.dev/update?asn=AS14593
-and this would get you all of the Starlink prefixes in AS14593.  Hypothetically.
+and this would get you all of the Starlink prefixes in AS14593.  
+Hypothetically, you could use this with another script to manage Cloudflare Gateway Lists.  Hypothetically.

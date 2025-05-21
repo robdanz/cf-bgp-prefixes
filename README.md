@@ -2,7 +2,7 @@ This Cloudflare worker polls the RIPEstat API and gets the prefixes for an AS an
 
 You need a D1 binding called "DB", and you need a table per ASN.
 
-You need a table looks like this:
+You need a table that looks like this:
 <code>
 CREATE TABLE IF NOT EXISTS ASyourASNGoesHere (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
